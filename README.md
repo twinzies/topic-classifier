@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project showcases two implementations of a neural network classifier:
+This project demonstrates two implementations of a neural network classifier:
 
 - **From scratch (NumPy-only):** Located in `notebooks/numpy_topic_classifier.ipynb`, illustrating the core mechanics without deep learning libraries.
 - **Modular PyTorch version:** Structured for scalability and to demonstrate standard practice, with clear architecture, training, and visualization modules.
@@ -19,7 +19,7 @@ This project showcases two implementations of a neural network classifier:
 ```bash
 pip install -r requirements.txt
 
-your-project/
+topic-classifier/
 ├── data/
 │   └── README.md
 ├── model/
