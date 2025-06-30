@@ -20,8 +20,9 @@ This project demonstrates two implementations of a neural network classifier:
 pip install -r requirements.txt
 
 topic-classifier/
-├── data/
-│   └── README.md
+├── data_topic/
+│   └── dev.csv, train.csv, test.csv (data is pre-split)
+
 ├── model/
 │   ├── architecture.py    PyTorch architecture
 │   └── train.py           Training and evaluation logic
